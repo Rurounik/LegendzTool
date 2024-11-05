@@ -301,7 +301,7 @@ Partial Class Form1
         'ElementC
         '
         Me.ElementC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ElementC.Enabled = true
+        Me.ElementC.Enabled = False
         Me.ElementC.FormattingEnabled = True
         Me.ElementC.Location = New System.Drawing.Point(12, 277)
         Me.ElementC.Name = "ElementC"
@@ -320,7 +320,7 @@ Partial Class Form1
         'RankC
         '
         Me.RankC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.RankC.Enabled = true
+        Me.RankC.Enabled = False
         Me.RankC.FormattingEnabled = True
         Me.RankC.Location = New System.Drawing.Point(186, 277)
         Me.RankC.Name = "RankC"
@@ -343,7 +343,7 @@ Partial Class Form1
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(186, 167)
         Me.GroupBox2.TabIndex = 22
-        Me.GroupBox2.TabStop = True
+        Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Base Stats"
         '
         'Label9
@@ -357,7 +357,7 @@ Partial Class Form1
         '
         'BaseHP
         '
-        Me.BaseHP.Enabled = true
+        Me.BaseHP.Enabled = False
         Me.BaseHP.Location = New System.Drawing.Point(9, 39)
         Me.BaseHP.Name = "BaseHP"
         Me.BaseHP.Size = New System.Drawing.Size(70, 20)
@@ -374,7 +374,7 @@ Partial Class Form1
         '
         'BaseRec
         '
-        Me.BaseRec.Enabled = True
+        Me.BaseRec.Enabled = False
         Me.BaseRec.Location = New System.Drawing.Point(99, 127)
         Me.BaseRec.Name = "BaseRec"
         Me.BaseRec.Size = New System.Drawing.Size(70, 20)
@@ -391,7 +391,7 @@ Partial Class Form1
         '
         'BasePA
         '
-        Me.BasePA.Enabled = True
+        Me.BasePA.Enabled = False
         Me.BasePA.Location = New System.Drawing.Point(99, 83)
         Me.BasePA.Name = "BasePA"
         Me.BasePA.Size = New System.Drawing.Size(70, 20)
@@ -408,7 +408,7 @@ Partial Class Form1
         '
         'BaseCoun
         '
-        Me.BaseCoun.Enabled = True
+        Me.BaseCoun.Enabled = False
         Me.BaseCoun.Location = New System.Drawing.Point(9, 127)
         Me.BaseCoun.Name = "BaseCoun"
         Me.BaseCoun.Size = New System.Drawing.Size(70, 20)
@@ -425,7 +425,7 @@ Partial Class Form1
         '
         'BaseMA
         '
-        Me.BaseMA.Enabled = True
+        Me.BaseMA.Enabled = False
         Me.BaseMA.Location = New System.Drawing.Point(9, 83)
         Me.BaseMA.Name = "BaseMA"
         Me.BaseMA.Size = New System.Drawing.Size(70, 20)
@@ -442,7 +442,7 @@ Partial Class Form1
         '
         'LifespanT
         '
-        Me.LifespanT.Enabled = True
+        Me.LifespanT.Enabled = False
         Me.LifespanT.Location = New System.Drawing.Point(212, 462)
         Me.LifespanT.Name = "LifespanT"
         Me.LifespanT.Size = New System.Drawing.Size(70, 20)
@@ -464,7 +464,7 @@ Partial Class Form1
         'HumidityC
         '
         Me.HumidityC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.HumidityC.Enabled = True
+        Me.HumidityC.Enabled = False
         Me.HumidityC.FormattingEnabled = True
         Me.HumidityC.Location = New System.Drawing.Point(9, 80)
         Me.HumidityC.Name = "HumidityC"
@@ -474,7 +474,7 @@ Partial Class Form1
         'TemperatureC
         '
         Me.TemperatureC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.TemperatureC.Enabled = True
+        Me.TemperatureC.Enabled = False
         Me.TemperatureC.FormattingEnabled = True
         Me.TemperatureC.Location = New System.Drawing.Point(9, 36)
         Me.TemperatureC.Name = "TemperatureC"
@@ -510,7 +510,7 @@ Partial Class Form1
         '
         'AgeT
         '
-        Me.AgeT.Enabled = True
+        Me.AgeT.Enabled = False
         Me.AgeT.Location = New System.Drawing.Point(302, 462)
         Me.AgeT.Name = "AgeT"
         Me.AgeT.Size = New System.Drawing.Size(70, 20)
@@ -557,7 +557,7 @@ Partial Class Form1
         '
         'CurrentHPT
         '
-        Me.CurrentHPT.Enabled = True
+        Me.CurrentHPT.Enabled = False
         Me.CurrentHPT.Location = New System.Drawing.Point(99, 38)
         Me.CurrentHPT.Name = "CurrentHPT"
         Me.CurrentHPT.Size = New System.Drawing.Size(70, 20)
@@ -574,7 +574,7 @@ Partial Class Form1
         '
         'HPMod
         '
-        Me.HPMod.Enabled = True
+        Me.HPMod.Enabled = False
         Me.HPMod.Location = New System.Drawing.Point(9, 39)
         Me.HPMod.Name = "HPMod"
         Me.HPMod.Size = New System.Drawing.Size(70, 20)
@@ -582,7 +582,7 @@ Partial Class Form1
         '
         'RecMod
         '
-        Me.RecMod.Enabled = True
+        Me.RecMod.Enabled = False
         Me.RecMod.Location = New System.Drawing.Point(99, 134)
         Me.RecMod.Name = "RecMod"
         Me.RecMod.Size = New System.Drawing.Size(70, 20)
@@ -599,7 +599,7 @@ Partial Class Form1
         '
         'PAMod
         '
-        Me.PAMod.Enabled = True
+        Me.PAMod.Enabled = False
         Me.PAMod.Location = New System.Drawing.Point(99, 90)
         Me.PAMod.Name = "PAMod"
         Me.PAMod.Size = New System.Drawing.Size(70, 20)
@@ -616,7 +616,7 @@ Partial Class Form1
         '
         'CounMod
         '
-        Me.CounMod.Enabled = True
+        Me.CounMod.Enabled = False
         Me.CounMod.Location = New System.Drawing.Point(9, 134)
         Me.CounMod.Name = "CounMod"
         Me.CounMod.Size = New System.Drawing.Size(70, 20)
@@ -633,7 +633,7 @@ Partial Class Form1
         '
         'MAMod
         '
-        Me.MAMod.Enabled = True
+        Me.MAMod.Enabled = False
         Me.MAMod.Location = New System.Drawing.Point(9, 90)
         Me.MAMod.Name = "MAMod"
         Me.MAMod.Size = New System.Drawing.Size(70, 20)
@@ -654,7 +654,7 @@ Partial Class Form1
         'ShiftE3
         '
         Me.ShiftE3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ShiftE3.Enabled = True
+        Me.ShiftE3.Enabled = False
         Me.ShiftE3.FormattingEnabled = True
         Me.ShiftE3.Location = New System.Drawing.Point(6, 76)
         Me.ShiftE3.Name = "ShiftE3"
@@ -664,7 +664,7 @@ Partial Class Form1
         'ShiftE2
         '
         Me.ShiftE2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ShiftE2.Enabled = True
+        Me.ShiftE2.Enabled = False
         Me.ShiftE2.FormattingEnabled = True
         Me.ShiftE2.Location = New System.Drawing.Point(6, 49)
         Me.ShiftE2.Name = "ShiftE2"
@@ -674,7 +674,7 @@ Partial Class Form1
         'ShiftE1
         '
         Me.ShiftE1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ShiftE1.Enabled = True
+        Me.ShiftE1.Enabled = False
         Me.ShiftE1.FormattingEnabled = True
         Me.ShiftE1.Location = New System.Drawing.Point(6, 20)
         Me.ShiftE1.Name = "ShiftE1"
@@ -717,7 +717,7 @@ Partial Class Form1
         'CurMove15
         '
         Me.CurMove15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove15.Enabled = True
+        Me.CurMove15.Enabled = False
         Me.CurMove15.FormattingEnabled = True
         Me.CurMove15.Location = New System.Drawing.Point(6, 396)
         Me.CurMove15.Name = "CurMove15"
@@ -727,7 +727,7 @@ Partial Class Form1
         'CurMove14
         '
         Me.CurMove14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove14.Enabled = True
+        Me.CurMove14.Enabled = False
         Me.CurMove14.FormattingEnabled = True
         Me.CurMove14.Location = New System.Drawing.Point(6, 370)
         Me.CurMove14.Name = "CurMove14"
@@ -737,7 +737,7 @@ Partial Class Form1
         'CurMove13
         '
         Me.CurMove13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove13.Enabled = True
+        Me.CurMove13.Enabled = False
         Me.CurMove13.FormattingEnabled = True
         Me.CurMove13.Location = New System.Drawing.Point(6, 343)
         Me.CurMove13.Name = "CurMove13"
@@ -747,7 +747,7 @@ Partial Class Form1
         'CurMove12
         '
         Me.CurMove12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove12.Enabled = True
+        Me.CurMove12.Enabled = False
         Me.CurMove12.FormattingEnabled = True
         Me.CurMove12.Location = New System.Drawing.Point(6, 316)
         Me.CurMove12.Name = "CurMove12"
@@ -757,7 +757,7 @@ Partial Class Form1
         'CurMove11
         '
         Me.CurMove11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove11.Enabled = True
+        Me.CurMove11.Enabled = False
         Me.CurMove11.FormattingEnabled = True
         Me.CurMove11.Location = New System.Drawing.Point(6, 289)
         Me.CurMove11.Name = "CurMove11"
@@ -767,7 +767,7 @@ Partial Class Form1
         'CurMove10
         '
         Me.CurMove10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove10.Enabled = True
+        Me.CurMove10.Enabled = False
         Me.CurMove10.FormattingEnabled = True
         Me.CurMove10.Location = New System.Drawing.Point(6, 262)
         Me.CurMove10.Name = "CurMove10"
@@ -777,7 +777,7 @@ Partial Class Form1
         'CurMove9
         '
         Me.CurMove9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove9.Enabled = True
+        Me.CurMove9.Enabled = False
         Me.CurMove9.FormattingEnabled = True
         Me.CurMove9.Location = New System.Drawing.Point(6, 235)
         Me.CurMove9.Name = "CurMove9"
@@ -787,7 +787,7 @@ Partial Class Form1
         'CurMove8
         '
         Me.CurMove8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove8.Enabled = True
+        Me.CurMove8.Enabled = False
         Me.CurMove8.FormattingEnabled = True
         Me.CurMove8.Location = New System.Drawing.Point(6, 208)
         Me.CurMove8.Name = "CurMove8"
@@ -797,7 +797,7 @@ Partial Class Form1
         'CurMove7
         '
         Me.CurMove7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove7.Enabled = True
+        Me.CurMove7.Enabled = False
         Me.CurMove7.FormattingEnabled = True
         Me.CurMove7.Location = New System.Drawing.Point(6, 181)
         Me.CurMove7.Name = "CurMove7"
@@ -807,7 +807,7 @@ Partial Class Form1
         'CurMove6
         '
         Me.CurMove6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove6.Enabled = True
+        Me.CurMove6.Enabled = False
         Me.CurMove6.FormattingEnabled = True
         Me.CurMove6.Location = New System.Drawing.Point(6, 154)
         Me.CurMove6.Name = "CurMove6"
@@ -817,7 +817,7 @@ Partial Class Form1
         'CurMove5
         '
         Me.CurMove5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove5.Enabled = True
+        Me.CurMove5.Enabled = False
         Me.CurMove5.FormattingEnabled = True
         Me.CurMove5.Location = New System.Drawing.Point(6, 127)
         Me.CurMove5.Name = "CurMove5"
@@ -827,7 +827,7 @@ Partial Class Form1
         'CurMove4
         '
         Me.CurMove4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove4.Enabled = True
+        Me.CurMove4.Enabled = False
         Me.CurMove4.FormattingEnabled = True
         Me.CurMove4.Location = New System.Drawing.Point(6, 100)
         Me.CurMove4.Name = "CurMove4"
@@ -837,7 +837,7 @@ Partial Class Form1
         'CurMove3
         '
         Me.CurMove3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove3.Enabled = True
+        Me.CurMove3.Enabled = False
         Me.CurMove3.FormattingEnabled = True
         Me.CurMove3.Location = New System.Drawing.Point(6, 73)
         Me.CurMove3.Name = "CurMove3"
@@ -847,7 +847,7 @@ Partial Class Form1
         'CurMove2
         '
         Me.CurMove2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove2.Enabled = True
+        Me.CurMove2.Enabled = False
         Me.CurMove2.FormattingEnabled = True
         Me.CurMove2.Location = New System.Drawing.Point(6, 46)
         Me.CurMove2.Name = "CurMove2"
@@ -857,7 +857,7 @@ Partial Class Form1
         'CurMove1
         '
         Me.CurMove1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.CurMove1.Enabled = True
+        Me.CurMove1.Enabled = False
         Me.CurMove1.FormattingEnabled = True
         Me.CurMove1.Location = New System.Drawing.Point(6, 19)
         Me.CurMove1.Name = "CurMove1"
@@ -891,7 +891,7 @@ Partial Class Form1
         'StMove15
         '
         Me.StMove15.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove15.Enabled = True
+        Me.StMove15.Enabled = False
         Me.StMove15.FormattingEnabled = True
         Me.StMove15.Location = New System.Drawing.Point(6, 396)
         Me.StMove15.Name = "StMove15"
@@ -901,7 +901,7 @@ Partial Class Form1
         'StMove14
         '
         Me.StMove14.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove14.Enabled = True
+        Me.StMove14.Enabled = False
         Me.StMove14.FormattingEnabled = True
         Me.StMove14.Location = New System.Drawing.Point(6, 370)
         Me.StMove14.Name = "StMove14"
@@ -911,7 +911,7 @@ Partial Class Form1
         'StMove13
         '
         Me.StMove13.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove13.Enabled = True
+        Me.StMove13.Enabled = False
         Me.StMove13.FormattingEnabled = True
         Me.StMove13.Location = New System.Drawing.Point(6, 343)
         Me.StMove13.Name = "StMove13"
@@ -921,7 +921,7 @@ Partial Class Form1
         'StMove12
         '
         Me.StMove12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove12.Enabled = True
+        Me.StMove12.Enabled = False
         Me.StMove12.FormattingEnabled = True
         Me.StMove12.Location = New System.Drawing.Point(6, 316)
         Me.StMove12.Name = "StMove12"
@@ -931,7 +931,7 @@ Partial Class Form1
         'StMove11
         '
         Me.StMove11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove11.Enabled = True
+        Me.StMove11.Enabled = False
         Me.StMove11.FormattingEnabled = True
         Me.StMove11.Location = New System.Drawing.Point(6, 289)
         Me.StMove11.Name = "StMove11"
@@ -941,7 +941,7 @@ Partial Class Form1
         'StMove10
         '
         Me.StMove10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove10.Enabled = True
+        Me.StMove10.Enabled = False
         Me.StMove10.FormattingEnabled = True
         Me.StMove10.Location = New System.Drawing.Point(6, 262)
         Me.StMove10.Name = "StMove10"
@@ -951,7 +951,7 @@ Partial Class Form1
         'StMove9
         '
         Me.StMove9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove9.Enabled = True
+        Me.StMove9.Enabled = False
         Me.StMove9.FormattingEnabled = True
         Me.StMove9.Location = New System.Drawing.Point(6, 235)
         Me.StMove9.Name = "StMove9"
@@ -961,7 +961,7 @@ Partial Class Form1
         'StMove8
         '
         Me.StMove8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove8.Enabled = True
+        Me.StMove8.Enabled = False
         Me.StMove8.FormattingEnabled = True
         Me.StMove8.Location = New System.Drawing.Point(6, 208)
         Me.StMove8.Name = "StMove8"
@@ -971,7 +971,7 @@ Partial Class Form1
         'StMove7
         '
         Me.StMove7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove7.Enabled = True
+        Me.StMove7.Enabled = False
         Me.StMove7.FormattingEnabled = True
         Me.StMove7.Location = New System.Drawing.Point(6, 181)
         Me.StMove7.Name = "StMove7"
@@ -981,7 +981,7 @@ Partial Class Form1
         'StMove6
         '
         Me.StMove6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove6.Enabled = True
+        Me.StMove6.Enabled = False
         Me.StMove6.FormattingEnabled = True
         Me.StMove6.Location = New System.Drawing.Point(6, 154)
         Me.StMove6.Name = "StMove6"
@@ -991,7 +991,7 @@ Partial Class Form1
         'StMove5
         '
         Me.StMove5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove5.Enabled = True
+        Me.StMove5.Enabled = False
         Me.StMove5.FormattingEnabled = True
         Me.StMove5.Location = New System.Drawing.Point(6, 127)
         Me.StMove5.Name = "StMove5"
@@ -1001,7 +1001,7 @@ Partial Class Form1
         'StMove4
         '
         Me.StMove4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove4.Enabled = True
+        Me.StMove4.Enabled = False
         Me.StMove4.FormattingEnabled = True
         Me.StMove4.Location = New System.Drawing.Point(6, 100)
         Me.StMove4.Name = "StMove4"
@@ -1011,7 +1011,7 @@ Partial Class Form1
         'StMove3
         '
         Me.StMove3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove3.Enabled = True
+        Me.StMove3.Enabled = False
         Me.StMove3.FormattingEnabled = True
         Me.StMove3.Location = New System.Drawing.Point(6, 73)
         Me.StMove3.Name = "StMove3"
@@ -1021,7 +1021,7 @@ Partial Class Form1
         'StMove2
         '
         Me.StMove2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove2.Enabled = True
+        Me.StMove2.Enabled = False
         Me.StMove2.FormattingEnabled = True
         Me.StMove2.Location = New System.Drawing.Point(6, 46)
         Me.StMove2.Name = "StMove2"
@@ -1031,7 +1031,7 @@ Partial Class Form1
         'StMove1
         '
         Me.StMove1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StMove1.Enabled = True
+        Me.StMove1.Enabled = False
         Me.StMove1.FormattingEnabled = True
         Me.StMove1.Location = New System.Drawing.Point(6, 19)
         Me.StMove1.Name = "StMove1"
